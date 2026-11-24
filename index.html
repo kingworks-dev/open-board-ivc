@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Open Board: what did the IVC school board decide?</title>
+<meta name="description" content="Search two years of Illinois Valley Central (District 321) school board minutes and agendas, see every vote, and prepare to speak or file a FOIA request. Unofficial student project.">
+<meta name="theme-color" content="#f3eee4">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f5c4a'/%3E%3Cpath d='M8 22V10h6a4 4 0 010 8H8' fill='none' stroke='%23f3eee4' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="fonts.css">
+<style>
+:root{--paper:#f3eee4;--paper2:#ebe4d5;--ink:#17201c;--ink2:#4a544e;--ink3:#5f6963;--line:#d6cdb8;--acc:#0f5c4a;--acc-d:#0a4235;--hl:#ffe08a;--ease:cubic-bezier(.16,1,.3,1);--disp:"Fraunces",Georgia,serif;--sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--acc-d);text-underline-offset:3px}
+a:hover{color:var(--ink)}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px;border-radius:3px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+header.top{border-bottom:1px solid var(--line);background:var(--paper)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:var(--ink)}
+.brand b{font:600 24px/1 var(--disp);letter-spacing:-.02em}
+.brand span{font-size:13px;color:var(--ink3);letter-spacing:.01em}
+nav.tabs{display:flex;gap:4px}
+nav.tabs button{appearance:none;border:0;background:none;font:500 15px/1 var(--sans);color:var(--ink2);padding:12px 14px;min-height:44px;cursor:pointer;border-bottom:2px solid transparent}
+nav.tabs button:hover{color:var(--ink)}
+nav.tabs button[aria-selected=true]{color:var(--ink);border-color:var(--acc)}
+.hero{padding:56px 0 28px;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:56px;align-items:start}
+.eyebrow{font-size:13px;font-weight:500;color:var(--acc-d);letter-spacing:.06em;text-transform:uppercase;margin:0 0 14px}
+h1{font:600 clamp(38px,5.4vw,64px)/1.02 var(--disp);letter-spacing:-.025em;margin:0 0 18px;text-wrap:balance}
+h1 em{font-style:normal;color:var(--acc)}
+.lede{font-size:18px;color:var(--ink2);max-width:58ch;margin:0 0 26px}
+.searchbox{display:flex;gap:0;border:1.5px solid var(--ink);background:#fffdf8;border-radius:4px;max-width:720px}
+.searchbox input{flex:1;min-width:0;border:0;background:none;font:400 20px/1.2 var(--sans);padding:16px 16px;color:var(--ink);border-radius:4px 0 0 4px}
+.searchbox input:focus{outline:none}
+.searchbox:focus-within{box-shadow:0 0 0 3px rgba(15,92,74,.3)}
+.btn{appearance:none;border:0;background:var(--acc);color:#fff;font:600 16px/1 var(--sans);padding:0 24px;min-height:52px;cursor:pointer;border-radius:0 3px 3px 0;transition:background .15s}
+.btn:hover{background:var(--acc-d)}
+.btn.line{background:none;color:var(--ink);border:1.5px solid var(--ink);border-radius:4px;padding:0 18px;min-height:44px}
+.btn.line:hover{background:var(--ink);color:var(--paper)}
+.btn.solid{border-radius:4px;min-height:48px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0;max-width:720px}
+.chip{appearance:none;border:1px solid var(--line);background:none;border-radius:99px;font:500 14px/1 var(--sans);color:var(--ink2);padding:0 14px;min-height:38px;cursor:pointer}
+.chip:hover{border-color:var(--ink);color:var(--ink)}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.next{border-top:3px solid var(--ink);padding-top:16px}
+.next .k{font-size:13px;color:var(--ink3);letter-spacing:.06em;text-transform:uppercase;font-weight:500}
+.next .big{font:600 44px/1 var(--disp);letter-spacing:-.02em;margin:10px 0 4px}
+.next .when{font-size:16px;color:var(--ink2);margin:0 0 4px}
+.next .cd{display:inline-block;margin:10px 0 14px;font-weight:600;color:var(--acc-d)}
+.next dl{margin:14px 0 16px;border-top:1px solid var(--line)}
+.next dl div{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:15px}
+.next dt{color:var(--ink3)}.next dd{margin:0;text-align:right;font-weight:500}
+.stats{display:flex;gap:36px;flex-wrap:wrap;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:12px 0 0}
+.stats div b{display:block;font:600 34px/1 var(--disp);letter-spacing:-.02em}
+.stats div span{font-size:14px;color:var(--ink3)}
+main{padding-bottom:96px}
+section.view{display:none;padding-top:32px}
+section.view.on{display:block}
+.filters{display:flex;flex-wrap:wrap;gap:12px 16px;align-items:end;margin:0 0 18px}
+.filters label{display:flex;flex-direction:column;font-size:13px;color:var(--ink3);gap:4px;font-weight:500}
+select,.fld{font:400 16px/1.2 var(--sans);padding:10px 12px;min-height:44px;border:1px solid var(--line);background:#fffdf8;color:var(--ink);border-radius:4px}
+select:focus,.fld:focus{border-color:var(--acc);outline:none;box-shadow:0 0 0 3px rgba(15,92,74,.25)}
+.count{font-size:15px;color:var(--ink2);margin:0 0 6px}
+.hit{padding:20px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:150px minmax(0,1fr);gap:8px 28px}
+.hit .meta{font-size:14px;color:var(--ink3)}
+.hit .meta b{display:block;color:var(--ink);font-size:16px;font-weight:600}
+.tag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--acc-d);margin-top:4px}
+.tag.ag{color:#7a4a00}
+.hit p{margin:0 0 8px;max-width:72ch}
+.hit a.src{font-size:14px;font-weight:500}
+mark{background:var(--hl);color:inherit;padding:0 1px;border-radius:2px}
+.empty{padding:40px 0;color:var(--ink2);max-width:60ch}
+.empty h3{font:600 26px/1.15 var(--disp);margin:0 0 8px;color:var(--ink)}
+.dec{padding:18px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:150px minmax(0,1fr) 120px;gap:8px 28px;align-items:start}
+.dec h3{font:600 20px/1.3 var(--disp);margin:0 0 6px;letter-spacing:-.01em;max-width:62ch}
+.dmeta{font-size:14px;color:var(--ink3)}.dmeta b{display:block;color:var(--ink);font-size:16px;font-weight:600}
+.dec .who{font-size:14px;color:var(--ink3)}
+.vote{text-align:right}
+.vote b{display:block;font:600 30px/1 var(--disp);color:var(--acc-d);font-variant-numeric:tabular-nums}
+.vote span{font-size:13px;color:var(--ink3)}
+details.ex{margin-top:8px}
+details.ex summary{cursor:pointer;font-size:14px;font-weight:500;color:var(--acc-d);min-height:32px;display:inline-flex;align-items:center}
+details.ex p{margin:6px 0 0;max-width:68ch;color:var(--ink2);font-size:16px}
+.cat{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3);margin-bottom:6px}
+table{width:100%;border-collapse:collapse;font-size:16px}
+th{font-size:13px;color:var(--ink3);font-weight:500;text-align:left;padding:8px 10px;border-bottom:1.5px solid var(--ink)}
+td{padding:12px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.n{font-variant-numeric:tabular-nums;text-align:right}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px}
+.two h2,.sec-h{font:600 30px/1.1 var(--disp);letter-spacing:-.015em;margin:0 0 12px}
+.rules{list-style:none;margin:0 0 20px;padding:0}
+.rules li{padding:12px 0;border-top:1px solid var(--line);display:flex;gap:14px}
+.rules li b{font:600 22px/1.1 var(--disp);min-width:76px;color:var(--acc-d)}
+form.card{border-top:3px solid var(--ink);padding-top:16px}
+form.card label{display:block;font-size:14px;font-weight:500;color:var(--ink2);margin:14px 0 4px}
+form.card .fld{width:100%}
+textarea.fld{min-height:130px;resize:vertical;font-family:var(--sans)}
+.hint{font-size:14px;color:var(--ink3);margin:6px 0 0}
+.out{margin-top:18px;border:1px solid var(--line);background:#fffdf8;border-radius:4px;padding:16px 18px;white-space:pre-wrap;font-size:16px;line-height:1.5}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.ok{color:var(--acc-d);font-weight:600;font-size:14px;align-self:center}
+.timer{font-variant-numeric:tabular-nums}
+.timer.over{color:#9b1c1c;font-weight:600}
+footer{border-top:1px solid var(--line);padding:28px 0 120px;color:var(--ink3);font-size:14px}
+footer p{max-width:80ch;margin:0 0 8px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:9}
+.mob{display:none}
+@media (max-width:860px){
+ .hero{grid-template-columns:1fr;gap:28px;padding:32px 0 16px}
+ .two{grid-template-columns:1fr;gap:36px}
+ .hit{grid-template-columns:1fr}
+ .dec{grid-template-columns:1fr;gap:6px}
+ .dec .vote{order:1;text-align:left;display:flex;align-items:baseline;gap:10px}
+ .dec .dbody{order:2}
+ nav.tabs.desk{display:none}
+ .mob{display:flex;position:fixed;left:0;right:0;bottom:0;background:var(--paper);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom);z-index:5}
+ .mob button{flex:1;min-height:56px;border:0;background:none;font:500 13px/1.1 var(--sans);color:var(--ink2);cursor:pointer;border-top:3px solid transparent}
+ .mob button[aria-selected=true]{color:var(--ink);border-top-color:var(--acc)}
+ .brand span{display:none}
+ .searchbox input{font-size:18px;padding:14px}
+ .btn{padding:0 18px}
+ .next .big{font-size:38px}
+ .stats{gap:22px}
+ .vote b{font-size:26px}
+ table.stack thead{display:none}
+ table.stack tr{display:grid;grid-template-columns:1fr 1fr;gap:2px 10px;padding:12px 0;border-bottom:1px solid var(--line)}
+ table.stack td{border:0;padding:2px 0}
+ table.stack td:first-child{grid-column:1/-1;font-weight:600}
+ table.stack td.n{text-align:left}
+}
+@media (prefers-reduced-motion:no-preference){
+ .hit,.dec{animation:in .5s var(--ease) both}
+ @keyframes in{from{opacity:.0;transform:translateY(6px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap bar">
+ <a class="brand" href="#search" data-go="search"><b>Open Board</b><span>IVC District 321 · Chillicothe, IL</span></a>
+ <nav class="tabs desk" role="tablist" aria-label="Sections">
+  <button role="tab" data-go="search" aria-selected="true">Search</button>
+  <button role="tab" data-go="decisions" aria-selected="false">Decisions</button>
+  <button role="tab" data-go="meetings" aria-selected="false">Meetings</button>
+  <button role="tab" data-go="speak" aria-selected="false">Speak up</button>
+ </nav>
+</div></header>
+
+<main id="main" class="wrap">
+<section class="view on" id="v-search" aria-label="Search">
+ <div class="hero">
+  <div>
+   <p class="eyebrow">Illinois Valley Central school board</p>
+   <h1>What did the board <em>actually decide?</em></h1>
+   <p class="lede">The district posts every meeting as its own Google Doc. Open Board puts two years of them in one search box, so a parent can find the vote, the numbers and the original document in seconds.</p>
+   <form class="searchbox" id="sform" role="search" autocomplete="off">
+    <input id="q" type="search" placeholder="Try: bike path, bus routes, sales tax" aria-label="Search board minutes and agendas" enterkeyhint="search">
+    <button class="btn" type="submit">Search</button>
+   </form>
+   <div class="chips" id="chips" aria-label="Example searches"></div>
+  </div>
+  <aside class="next" id="next" aria-label="Next board meeting"></aside>
+ </div>
+ <div class="stats" id="stats"></div>
+ <div style="padding-top:28px">
+  <div class="filters" id="sfilters" hidden>
+   <label>School year<select id="fy"><option value="">Both years</option><option>2025-2026</option><option>2024-2025</option></select></label>
+   <label>Document<select id="fd"><option value="">Minutes and agendas</option><option value="m">Minutes only</option><option value="a">Agendas only</option></select></label>
+   <label>Meeting<select id="ft"><option value="">All meetings</option><option value="reg">Regular board meetings</option><option value="com">Committees</option></select></label>
+  </div>
+  <p class="count" id="scount" role="status" aria-live="polite"></p>
+  <div id="results"></div>
+  <p id="more" hidden><button class="btn line" id="morebtn">Show more passages</button></p>
+ </div>
+</section>
+
+<section class="view" id="v-decisions" aria-label="Decisions">
+ <h2 class="sec-h">Every vote, in one list</h2>
+ <p class="lede" style="max-width:64ch">Pulled from the "Motion carried" lines in the official minutes. Click a line to read what was said before the vote.</p>
+ <div class="filters">
+  <label>Topic<select id="dc"></select></label>
+  <label>School year<select id="dy"><option value="">Both years</option><option>2025-2026</option><option>2024-2025</option></select></label>
+  <label style="flex:1;min-width:200px">Filter words<input class="fld" id="dq" type="search" placeholder="e.g. bus, audit, Kroger"></label>
+ </div>
+ <p class="count" id="dcount" role="status" aria-live="polite"></p>
+ <div id="dlist"></div>
+ <p id="dmore" hidden><button class="btn line" id="dmorebtn">Show more votes</button></p>
+</section>
+
+<section class="view" id="v-meetings" aria-label="Meetings">
+ <h2 class="sec-h" id="mh">All meetings</h2>
+ <p class="lede" style="max-width:64ch">Newest first, with the district's own agenda, minutes and "meeting in review" links.</p>
+ <div class="filters"><label>Meeting<select id="mt"><option value="">All</option><option value="reg">Regular board meetings</option><option value="com">Committees</option></select></label></div>
+ <table class="stack"><thead><tr><th>Date</th><th>Type</th><th class="n">Votes</th><th>Documents</th></tr></thead><tbody id="mbody"></tbody></table>
+</section>
+
+<section class="view" id="v-speak" aria-label="Speak up">
+ <div class="two">
+  <div>
+   <h2>Speak at the next meeting</h2>
+   <ul class="rules">
+    <li><b>5 min</b><span>Each speaker gets five minutes, and the president can shorten it if many people sign up.</span></li>
+    <li><b>Agenda</b><span>The board can listen but cannot take action on items that are not on the posted agenda.</span></li>
+    <li><b>Staff</b><span>No complaints about a specific staff member or student in open session; start with the teacher or principal, then the superintendent.</span></li>
+   </ul>
+   <form class="card" id="cform">
+    <label for="ctopic">What do you want the board to know?</label>
+    <input class="fld" id="ctopic" placeholder="e.g. safe routes for students who bike to school" required>
+    <label for="cask">What do you want them to do?</label>
+    <input class="fld" id="cask" placeholder="e.g. include the bike path in next year's facilities plan" required>
+    <label for="cwho">How does it affect you?</label>
+    <textarea class="fld" id="cwho" placeholder="Two or three sentences in your own words." required></textarea>
+    <div class="row"><button class="btn solid" type="submit">Build my 5-minute outline</button></div>
+   </form>
+   <div id="cout" hidden>
+    <div class="out" id="coutText" tabindex="0"></div>
+    <div class="row"><button class="btn line" id="ccopy" type="button">Copy outline</button><span class="ok" id="cok" role="status"></span></div>
+    <p class="hint timer" id="cwords"></p>
+    <p class="hint" id="cprev"></p>
+   </div>
+  </div>
+  <div>
+   <h2>Ask for records (FOIA)</h2>
+   <p style="margin-top:0;color:var(--ink2)">Anyone can request public records from the district. Illinois law requires a response within five business days, with one five-day extension allowed in writing. Electronic copies are free. Send the request to the district's FOIA officer.</p>
+   <form class="card" id="fform">
+    <label for="frec">Records you want</label>
+    <textarea class="fld" id="frec" placeholder="e.g. All bids received for the transportation facility project, and the architect's contract." required></textarea>
+    <label for="fname">Your name</label>
+    <input class="fld" id="fname" autocomplete="name" required>
+    <label for="fmail">Mailing address (the district asks for one)</label>
+    <input class="fld" id="fmail" autocomplete="street-address" required>
+    <label for="femail">Your email (optional, for electronic copies)</label>
+    <input class="fld" id="femail" type="email" autocomplete="email">
+    <div class="row"><button class="btn solid" type="submit">Draft my request</button></div>
+   </form>
+   <div id="fout" hidden>
+    <div class="out" id="foutText" tabindex="0"></div>
+    <div class="row"><button class="btn line" id="fcopy" type="button">Copy letter</button><a class="btn line" id="fmailto" style="display:inline-flex;align-items:center;text-decoration:none" href="#">Open in my email app</a><span class="ok" id="fok" role="status"></span></div>
+   </div>
+   <p class="hint" style="margin-top:18px">District office: 1008 N. 4th Street, Chillicothe, IL 61523, 309-245-3978.</p>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer><div class="wrap">
+ <p><b>Unofficial student project.</b> Built by Landon King, a senior at Illinois Valley Central High School, as a prototype for the Starbridge Better Communities Scholarship. It is not run by or endorsed by Illinois Valley Central CUSD 321. Always check the linked official document; the vote tallies and topic labels here are extracted by software and can be wrong.</p>
+ <p>Data: the district's public agenda and minutes at <a href="https://www.ivcschools.com/school-board/board-agenda-minutes">ivcschools.com/school-board/board-agenda-minutes</a> (school years 2024-25 and 2025-26), the 2026-27 meeting notice, the board's public comment guide and the district FOIA page. <span id="built"></span> Search runs in your browser; nothing you type is sent anywhere.</p>
+</div></footer>
+
+<nav class="mob" role="tablist" aria-label="Sections">
+ <button role="tab" data-go="search" aria-selected="true">Search</button>
+ <button role="tab" data-go="decisions" aria-selected="false">Decisions</button>
+ <button role="tab" data-go="meetings" aria-selected="false">Meetings</button>
+ <button role="tab" data-go="speak" aria-selected="false">Speak up</button>
+</nav>
+
+<script>
+(function(){
+"use strict";
+var $=function(s,r){return (r||document).querySelector(s)},$$=function(s,r){return [].slice.call((r||document).querySelectorAll(s))};
+var D=null,MT={},idx=[];
+/* 2026-27 public notice of board meetings (district Google Doc, fetched Nov 24 2026) */
+var SCHED=[["2026-07-28","IVC High School Science Collaboration Area"],["2026-08-25","Mossville School"],["2026-09-08","South Elementary School"],["2026-09-22","Chillicothe Elementary Center"],["2026-10-27","IVC Learning Center"],["2026-11-23","IVC High School Library"],["2026-12-15","IVC High School Science Collaboration Area"],["2027-01-26","IVC High School Science Collaboration Area"],["2027-02-09","IVC High School Science Collaboration Area","Committee of the Whole"],["2027-02-23","IVC High School Science Collaboration Area"],["2027-03-23","IVC High School Science Collaboration Area"],["2027-04-29","IVC High School Science Collaboration Area"],["2027-05-25","IVC High School Science Collaboration Area"],["2027-06-22","IVC High School Science Collaboration Area"]];
+var SYN={bus:["transportation","buses"],buses:["transportation","bus"],money:["budget"],tax:["levy","taxes"],bike:["bicycle","bike"],teacher:["teachers"],cost:["costs","price"]};
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function fmt(d){var p=d.split("-");return new Date(+p[0],+p[1]-1,+p[2]).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})}
+function fmtL(d){var p=d.split("-");return new Date(+p[0],+p[1]-1,+p[2]).toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric"})}
+function isReg(t){return /^regular/i.test(t)}
+function mtype(t){return isReg(t)?"reg":"com"}
+function short(t){return t.replace(/ Meeting$/,"")}
+/* ---- tabs ---- */
+function go(v,push){
+  $$(".view").forEach(function(e){e.classList.toggle("on",e.id==="v-"+v)});
+  $$("[data-go][role=tab]").forEach(function(b){b.setAttribute("aria-selected",b.dataset.go===v)});
+  if(push!==false)history.replaceState(null,"","#"+v);
+  window.scrollTo(0,0);
+}
+document.addEventListener("click",function(e){var b=e.target.closest("[data-go]");if(b){e.preventDefault();go(b.dataset.go)}});
+/* ---- next meeting ---- */
+function renderNext(){
+  var now=new Date(),today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+  var n=null,loc="",extra="";
+  for(var i=0;i<SCHED.length;i++){var p=SCHED[i][0].split("-"),dt=new Date(+p[0],+p[1]-1,+p[2]);if(dt>=today){n=dt;loc=SCHED[i][1];extra=SCHED[i][2]||"";var iso=SCHED[i][0];break}}
+  var el=$("#next");
+  if(!n){el.innerHTML='<div class="k">Next meeting</div><p class="when">The 2026-27 notice has no more dates. Check the district page.</p>';return}
+  var days=Math.round((n-today)/864e5);
+  var cd=days===0?"Tonight":days===1?"Tomorrow":"In "+days+" days";
+  el.innerHTML='<div class="k">Next board meeting</div><div class="big">'+esc(n.toLocaleDateString("en-US",{month:"short",day:"numeric"}))+'</div><p class="when">'+esc(n.toLocaleDateString("en-US",{weekday:"long"}))+', '+n.getFullYear()+' at 6:30 p.m.</p><span class="cd">'+cd+'</span>'+
+   '<dl><div><dt>Where</dt><dd>'+esc(loc)+'</dd></div>'+(extra?'<div><dt>Type</dt><dd>'+esc(extra)+'</dd></div>':'')+'<div><dt>Watch</dt><dd>Live on YouTube (IVC Broadcasting)</dd></div></dl>'+
+   '<button class="btn line" data-go="speak">How to speak or request records</button>';
+}
+/* ---- stats ---- */
+function renderStats(){
+  var reg=D.meetings.filter(function(m){return isReg(m.type)}).length;
+  $("#stats").innerHTML='<div><b>'+D.meetings.length+'</b><span>meetings, Jul 2024 to Jun 2026</span></div><div><b>'+D.motions.length+'</b><span>votes extracted</span></div><div><b>'+D.chunks.length.toLocaleString()+'</b><span>searchable passages</span></div><div><b>'+reg+'</b><span>regular board meetings</span></div>';
+  $("#built").textContent="Last built "+new Date(D.built).toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"})+".";
+}
+/* ---- search ---- */
+var CHIPS=["bike path","bus routes","sales tax","transportation facility","Kroger","audit","calendar","clay target"];
+function renderChips(){
+  $("#chips").innerHTML=CHIPS.map(function(c){return '<button type="button" class="chip" data-q="'+esc(c)+'">'+esc(c)+'</button>'}).join("");
+}
+$("#chips").addEventListener("click",function(e){var b=e.target.closest("[data-q]");if(b){$("#q").value=b.dataset.q;runSearch()}});
+var hits=[],shown=0,STEP=20,terms=[];
+function stem(w){return w.replace(/(ies|es|s)$/,function(m){return m==="ies"?"y":""})}
+function tokens(q){return (q.toLowerCase().match(/[a-z0-9\u2019'-]+/g)||[]).filter(function(w){return w.length>1&&!/^(the|and|of|for|to|a|in|on|at|is|was|did|do|what|about)$/.test(w)})}
+var RX={};
+function rx(t){return RX[t]||(RX[t]=new RegExp("\\b"+t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"(?:s|es|ed|ing)?(?![a-z])","i"))}
+function runSearch(push){
+  var q=$("#q").value.trim();
+  var f={y:$("#fy").value,d:$("#fd").value,t:$("#ft").value};
+  $("#stats").hidden=!!q;
+  if(!q){$("#results").innerHTML="";$("#scount").textContent="";$("#sfilters").hidden=true;$("#more").hidden=true;return}
+  $("#sfilters").hidden=false;
+  var tk=tokens(q);terms=tk.map(stem).filter(function(s){return s.length>1});
+  if(!terms.length){terms=[q.toLowerCase()]}
+  var alt=terms.map(function(t){var a=[t];(SYN[t]||[]).forEach(function(s){a.push(stem(s))});return a});
+  var out=[];
+  for(var i=0;i<idx.length;i++){
+    var c=D.chunks[i],m=MT[c[0]];
+    if(f.y&&m.year!==f.y)continue;if(f.d&&c[1]!==f.d)continue;if(f.t&&mtype(m.type)!==f.t)continue;
+    var low=idx[i],got=0;
+    for(var k=0;k<alt.length;k++){for(var j=0;j<alt[k].length;j++){if(rx(alt[k][j]).test(low)){got++;break}}}
+    if(got<alt.length)continue;
+    var s=got*10+(c[1]==="m"?3:0)+(low.indexOf(q.toLowerCase())>-1?8:0);
+    out.push([s,i]);
+  }
+  out.sort(function(a,b){return b[0]-a[0]||(MT[D.chunks[b[1]][0]].date<MT[D.chunks[a[1]][0]].date?-1:1)});
+  hits=out;shown=0;$("#results").innerHTML="";
+  var ms={};out.forEach(function(h){ms[D.chunks[h[1]][0]]=1});
+  $("#scount").textContent=out.length?out.length+" passage"+(out.length===1?"":"s")+" in "+Object.keys(ms).length+" meeting"+(Object.keys(ms).length===1?"":"s")+" for \u201c"+q+"\u201d":"";
+  if(!out.length){$("#results").innerHTML='<div class="empty"><h3>No passages match \u201c'+esc(q)+'\u201d.</h3><p>Try one word instead of a phrase, or a related word (for example \u201ctransportation\u201d instead of \u201cbus\u201d). The search covers July 2024 through June 2026.</p></div>';$("#more").hidden=true;return}
+  more();
+  if(push!==false)$("#scount").scrollIntoView({behavior:"smooth",block:"start"});
+  if(push!==false)history.replaceState(null,"","#search?q="+encodeURIComponent(q));
+}
+function hl(text){
+  var out=esc(text);
+  terms.concat([].concat.apply([],terms.map(function(t){return (SYN[t]||[]).map(stem)}))).forEach(function(t){
+    if(!t)return;var re=new RegExp("\\b("+t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"(?:s|es|ed|ing)?)(?![a-z])","ig");
+    out=out.replace(re,"<mark>$1</mark>");
+  });
+  return out;
+}
+function more(){
+  var html="";
+  hits.slice(shown,shown+STEP).forEach(function(h){
+    var c=D.chunks[h[1]],m=MT[c[0]],url=c[1]==="m"?m.minutes:m.agenda;
+    html+='<article class="hit"><div class="meta"><b>'+fmt(m.date)+'</b>'+esc(short(m.type))+'<br><span class="tag'+(c[1]==="a"?" ag":"")+'">'+(c[1]==="m"?"Minutes":"Agenda")+'</span></div><div><p>'+hl(c[2])+'</p><a class="src" href="'+esc(url)+'" target="_blank" rel="noopener">Open the district\u2019s '+(c[1]==="m"?"minutes":"agenda")+' &#8599;</a></div></article>';
+  });
+  $("#results").insertAdjacentHTML("beforeend",html);
+  shown+=STEP;$("#more").hidden=shown>=hits.length;
+}
+$("#morebtn").addEventListener("click",more);
+$("#sform").addEventListener("submit",function(e){e.preventDefault();runSearch()});
+["fy","fd","ft"].forEach(function(id){$("#"+id).addEventListener("change",function(){runSearch()})});
+/* ---- decisions ---- */
+var dShown=0,dList=[];
+function sentence(t){t=t.replace(/^(to )/i,"");return t.charAt(0).toUpperCase()+t.slice(1)}
+function renderDecisions(){
+  var cats={};D.motions.forEach(function(x){cats[x.c]=(cats[x.c]||0)+1});
+  $("#dc").innerHTML='<option value="">All topics ('+D.motions.length+')</option>'+Object.keys(cats).sort().map(function(c){return '<option value="'+esc(c)+'">'+esc(c)+' ('+cats[c]+')</option>'}).join("");
+  filterD();
+}
+function filterD(){
+  var c=$("#dc").value,y=$("#dy").value,q=$("#dq").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  dList=D.motions.filter(function(x){var m=MT[x.m];if(c&&x.c!==c)return false;if(y&&m.year!==y)return false;var hay=(x.t+" "+x.ex+" "+x.by+" "+x.sec).toLowerCase();return q.every(function(w){return hay.indexOf(w)>-1})});
+  dList.sort(function(a,b){return MT[b.m].date<MT[a.m].date?-1:MT[b.m].date>MT[a.m].date?1:0});
+  dShown=0;$("#dlist").innerHTML="";
+  $("#dcount").textContent=dList.length+" vote"+(dList.length===1?"":"s");
+  if(!dList.length){$("#dlist").innerHTML='<div class="empty"><h3>No votes match.</h3><p>Clear a filter to see more.</p></div>';$("#dmore").hidden=true;return}
+  moreD();
+}
+function moreD(){
+  var h="";
+  dList.slice(dShown,dShown+25).forEach(function(x){
+    var m=MT[x.m],un=x.n===0,ex=x.ex&&!/^There (was|were) no (additional|further)/i.test(x.ex)?x.ex:"";
+    h+='<article class="dec"><div class="dmeta"><b>'+fmt(m.date)+'</b>'+esc(short(m.type))+'</div><div class="dbody"><span class="cat">'+esc(x.c)+'</span><h3>'+esc(sentence(x.t))+'</h3><div class="who">Moved by '+esc(x.by)+', seconded by '+esc(x.sec)+'</div>'+
+      (ex?'<details class="ex"><summary>What was said</summary><p>'+esc(ex)+'</p></details>':'')+
+      '<div style="margin-top:6px"><a class="src" style="font-size:14px;font-weight:500" href="'+esc(m.minutes)+'" target="_blank" rel="noopener">Official minutes &#8599;</a></div></div>'+
+      '<div class="vote"><b>'+(x.res==="carried"?x.y+"\u2013"+x.n:"Failed "+x.y+"\u2013"+x.n)+'</b><span>'+(x.res==="carried"?(un?"passed, no votes against":"passed"):"did not pass")+'</span></div></article>';
+  });
+  $("#dlist").insertAdjacentHTML("beforeend",h);dShown+=25;$("#dmore").hidden=dShown>=dList.length;
+}
+$("#dmorebtn").addEventListener("click",moreD);
+["dc","dy"].forEach(function(id){$("#"+id).addEventListener("change",filterD)});
+$("#dq").addEventListener("input",filterD);
+/* ---- meetings ---- */
+function renderMeetings(){
+  var t=$("#mt").value;
+  $("#mbody").innerHTML=D.meetings.filter(function(m){return !t||mtype(m.type)===t}).map(function(m){
+    var l=[];if(m.agenda)l.push('<a href="'+esc(m.agenda)+'" target="_blank" rel="noopener">Agenda</a>');if(m.minutes)l.push('<a href="'+esc(m.minutes)+'" target="_blank" rel="noopener">Minutes</a>');if(m.review)l.push('<a href="'+esc(m.review)+'" target="_blank" rel="noopener">Review</a>');
+    return '<tr><td>'+fmt(m.date)+'</td><td>'+esc(m.type)+'</td><td class="n">'+(m.nmotions||"&ndash;")+'</td><td>'+l.join(" &nbsp;&middot;&nbsp; ")+'</td></tr>';
+  }).join("");
+}
+$("#mt").addEventListener("change",renderMeetings);
+/* ---- speak: outline ---- */
+function nextInfo(){var n=$("#next .big");return n?n.textContent:"the next meeting"}
+$("#cform").addEventListener("submit",function(e){
+  e.preventDefault();
+  var t=$("#ctopic").value.trim(),a=$("#cask").value.trim(),w=$("#cwho").value.trim();
+  var txt="Good evening. My name is ____ and I live in the IVC district.\n\n"+
+  "1. The issue (about 1 minute)\nI am here about "+t+".\n\n"+
+  "2. Why it matters to me (about 2 minutes)\n"+w+"\n\n"+
+  "3. What I am asking (about 1 minute)\nI am asking the board to "+a+".\n\n"+
+  "4. Thank you (under 30 seconds)\nThank you for your time and for listening.";
+  $("#coutText").textContent=txt;$("#cout").hidden=false;
+  var words=txt.split(/\s+/).filter(Boolean).length;
+  var secs=Math.round(words/130*60);
+  var el=$("#cwords");el.textContent=words+" words, about "+Math.floor(secs/60)+":"+("0"+secs%60).slice(-2)+" at a normal speaking pace (130 words a minute). The limit is 5:00.";
+  el.classList.toggle("over",secs>300);
+  var GEN=/^(school|schools|students|student|board|district|every|their|there|about|would|should|which|children|kids|child|ivc|want|include|plan|year|years|make)$/;
+  var kw=tokens(t+" "+a).filter(function(x){return x.length>3&&!GEN.test(x)}).map(stem);
+  var best=null,bs=0;D.motions.forEach(function(x){var h=(x.t+" "+x.ex).toLowerCase(),sc=0;kw.forEach(function(k){if(rx(k).test(h))sc++});if(sc>bs){bs=sc;best=x}});
+  var hit=bs>=1?best:null;
+  $("#cprev").innerHTML=hit?'Related vote on record: \u201c'+esc(sentence(hit.t).slice(0,140))+'\u201d, '+fmt(MT[hit.m].date)+' (<a href="'+esc(MT[hit.m].minutes)+'" target="_blank" rel="noopener">minutes</a>). Mention it so the board knows you did your homework.':'';
+});
+function copy(el,ok){var t=el.textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){ok.textContent="Copied"},function(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);ok.textContent="Selected. Press copy."});setTimeout(function(){ok.textContent=""},2500)}
+$("#ccopy").addEventListener("click",function(){copy($("#coutText"),$("#cok"))});
+/* ---- speak: FOIA ---- */
+$("#fform").addEventListener("submit",function(e){
+  e.preventDefault();
+  var d=new Date().toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"});
+  var name=$("#fname").value.trim(),addr=$("#fmail").value.trim(),em=$("#femail").value.trim(),rec=$("#frec").value.trim();
+  var txt="To: Adam Bussard, FOIA Officer\nIllinois Valley Central CUSD 321\n1008 N. 4th Street, Chillicothe, IL 61523\n\nDate: "+d+"\n\nRe: Request under the Illinois Freedom of Information Act\n\nUnder the Illinois Freedom of Information Act, I request copies of the following public records:\n\n"+rec+"\n\nI request electronic copies"+(em?" sent to "+em:"")+". If any part of this request is denied, please tell me which exemption applies and which part is withheld. If the request is unclear, please contact me and I will narrow it.\n\nThank you,\n"+name+"\n"+addr;
+  $("#foutText").textContent=txt;$("#fout").hidden=false;
+  $("#fmailto").href="mailto:abussard@ivcschools.com?subject="+encodeURIComponent("FOIA request")+"&body="+encodeURIComponent(txt);
+});
+$("#fcopy").addEventListener("click",function(){copy($("#foutText"),$("#fok"))});
+/* ---- boot ---- */
+fetch("data.json").then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(j){
+  D=j;D.meetings.forEach(function(m){MT[m.id]=m});
+  idx=D.chunks.map(function(c){return c[2].toLowerCase()});
+  renderChips();renderNext();renderStats();renderDecisions();renderMeetings();$("#mh").textContent="All "+D.meetings.length+" meetings";
+  var h=location.hash.replace(/^#/,"");
+  if(/^search\?q=/.test(h)){$("#q").value=decodeURIComponent(h.split("q=")[1]);runSearch(false)}
+  else if(["decisions","meetings","speak"].indexOf(h)>-1)go(h,false);
+}).catch(function(err){
+  $("#results").innerHTML='<div class="empty"><h3>Could not load the minutes.</h3><p>'+esc(err.message)+'. Reload the page to try again.</p></div>';
+});
+})();
+</script>
+</body>
+</html>
